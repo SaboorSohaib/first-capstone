@@ -79,6 +79,7 @@ header {
 
 .program-section {
   background-image: url(./images/program-bg.jpg);
+  height: 145vh;
 }
 
 .program-title {
@@ -141,22 +142,31 @@ header {
   text-align: justify;
 }
 
-.program-cards a {
-  color: rgb(255, 255, 255);
-  background-color: rgb(248, 81, 81);
+.program-btn {
   font-family: "Lato", sans-serif;
-  width: 300px;
+  width: 450px;
   padding: 20px;
-  align-self: center;
-  text-decoration: none;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 40px;
+  margin-bottom: 15px;
   font-size: 18px;
   transition: all 0.25s ease;
 }
 
-.program-cards a:hover {
+.program-btn a {
+  color: rgb(255, 255, 255);
+  background-color: rgb(248, 81, 81);
+  padding: 20px;
+  align-self: center;
+  text-decoration: none;
+}
+
+.program-btn a:hover {
   background-color: rgb(233, 118, 118);
+}
+
+.footer img {
+  display: none;
 }
 
 @media only screen and (min-width: 768px) {
@@ -267,21 +277,31 @@ header {
   }
 
   /* Program Section */
+  .program-section {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .program-cards {
     display: grid;
     grid-template-columns: repeat(5, 0.5fr);
+    grid-gap: 1px;
     width: 80%;
     margin-top: 50px;
-    justify-items: center;
   }
 
   .card {
     display: flex;
     flex-direction: column;
+    justify-items: center;
     width: 180px;
-    height: 170px;
+    height: 180px;
     gap: 2px;
     padding-top: 10px;
+    text-align: center;
   }
 
   .program-image {
@@ -301,13 +321,22 @@ header {
   .program-btn {
     display: flex;
     flex-direction: row;
-    margin-top: 20px;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 20px;
   }
 
   .program-btn a {
     background: transparent;
     color: rgb(255, 255, 255);
     text-decoration: underline;
-    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+  }
+
+  /* Footer Section */
+  .footer img {
+    display: block;
+    width: 100%;
   }
 }
