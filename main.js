@@ -48,21 +48,21 @@ const mySpeakers = [
   {
     id: 4,
     name: 'Julia Leda',
-    title: 'President of Young Pirates of Europe',
+    title: 'President Pirates of Europe',
     img: './images/speaker4.png',
     description: 'Developed Asias first Internet protocol network SDN and led Koreas first private line Internet connection in 1990, ushering in a full-fledged',
   },
   {
     id: 5,
     name: 'Lila Tretikov',
-    title: 'Executive Director of the Khan Foundation',
+    title: 'Director of the Khan Foundation',
     img: './images/speaker5.png',
     description: 'European integration and online youth participation in politics and democracy are major concerns',
   },
   {
     id: 6,
     name: 'Ryan Merkley',
-    title: 'CEO of Creative Commons, ex COO of the Mozilla Foundation',
+    title: 'CEO of the Mozilla Foundation',
     img: './images/speaker6.png',
     description: 'He led open source projects at the Mozilla Foundation and joined CC as CEO in 2014.',
   },
@@ -75,11 +75,11 @@ function showSpeakers(speakerIndex) {
     (index) => `<article class="speaker-item">
         <img src=${index.img} alt="Speaker Photo" class="Photo"/>
         <div class="speaker-info">
-            <div>
+            <div class="info">
                 <h4 class="name">${index.name}</h4>
                 <p class="title1">${index.title}</p>
             </div>
-           <p class="description">
+           <p class="description info">
                 ${index.description}
            </p>
         </div>

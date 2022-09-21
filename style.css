@@ -234,6 +234,90 @@ header {
   background-color: rgb(233, 118, 118);
 }
 
+/* Speaker Section */
+.feature {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-top: 50px;
+}
+
+.speaker-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.feature-title {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(111, 112, 116);
+}
+
+.speaker-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.speaker-item {
+  display: grid;
+  grid-template-columns: 2fr;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  width: 220px;
+  height: 200px;
+  margin-top: -150px;
+  gap: 10px;
+}
+
+.name {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(111, 112, 116);
+}
+
+.title1 {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(248, 81, 81);
+}
+
+.description {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  color: rgb(111, 112, 116);
+  padding-top: 10px;
+}
+
+.last-btn {
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  padding: 15px;
+  width: 400px;
+  color: rgb(111, 112, 116);
+  background: transparent;
+  border: 1px solid rgb(177, 178, 180);
+  border-radius: 2px;
+  margin-left: 27px;
+  margin-bottom: 30px;
+  margin-top: -50px;
+  cursor: pointer;
+}
+
+#arrow {
+  color: rgb(248, 81, 81);
+  margin-left: 5px;
+}
+
 .footer img {
   display: none;
 }
@@ -407,7 +491,17 @@ header {
     font-size: 18px;
   }
 
+  .program-btn a:hover {
+    background: transparent;
+  }
+
   /* Speakers Section */
+  .feature {
+    display: grid;
+    grid-template-columns: repeat(2, 45%);
+    margin-bottom: 50px;
+  }
+
   .speaker-title {
     display: flex;
     flex-direction: column;
@@ -421,11 +515,6 @@ header {
     font-size: 20px;
     font-weight: 900;
     color: rgb(111, 112, 116);
-  }
-
-  .feature {
-    display: grid;
-    grid-template-columns: repeat(2, 50%);
   }
 
   .speakers {
@@ -445,35 +534,25 @@ header {
     border: 1px solid #fff;
     border-radius: 5px;
     margin-top: 2rem;
-    margin-left: 90px;
+    margin-left: 200px;
     margin-right: 90px;
   }
 
   .speaker-info {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    align-self: center;
+    align-self: baseline;
+    margin-left: 30px;
+    width: 220px;
+    height: 100px;
   }
 
-  .name {
-    font-family: "Lato", sans-serif;
-    font-size: 20px;
-    font-weight: 700;
-    color: rgb(111, 112, 116);
+  .info {
+    margin-top: 10px;
   }
 
-  .title1 {
-    font-family: "Lato", sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    color: rgb(248, 81, 81);
-  }
-
-  .description {
-    font-family: "Lato", sans-serif;
-    font-size: 14px;
-    color: rgb(111, 112, 116);
+  .last-btn {
+    display: none;
   }
 
   /* Footer Section */
