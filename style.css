@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 
-header {
+.main-section {
   background-image: url(./images/mobile-hero-bg.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -54,7 +54,7 @@ header {
   bottom: 0;
   right: 0;
   z-index: 50;
-  background-color: rgb(248, 81, 81);
+  background-color: rgb(236, 82, 66);
   color: rgb(111, 112, 116);
   transform: translateX(-100%);
   transition: all 0.25s ease-in-out;
@@ -159,10 +159,24 @@ header {
   padding-top: 30px;
 }
 
+.header-h4 {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(236, 82, 66);
+}
+
+.header-h1 {
+  font-family: "Lato", sans-serif;
+  font-size: 30px;
+  font-weight: 900;
+  color: rgb(236, 82, 66);
+}
+
 .red-underline {
   height: 1px;
   width: 50px;
-  background-color: rgb(248, 81, 81);
+  background-color: rgb(236, 82, 66);
   border-radius: 10px;
   margin-top: 10px;
   margin-left: auto;
@@ -196,7 +210,7 @@ header {
 }
 
 .card:hover {
-  border: 3px solid rgb(248, 81, 81);
+  border: 3px solid rgb(236, 82, 66);
   padding: 5px;
 }
 
@@ -224,14 +238,14 @@ header {
 
 .program-btn a {
   color: rgb(255, 255, 255);
-  background-color: rgb(248, 81, 81);
+  background-color: rgb(236, 82, 66);
   padding: 20px;
   align-self: center;
   text-decoration: none;
 }
 
 .program-btn a:hover {
-  background-color: rgb(233, 118, 118);
+  background-color: rgb(236, 82, 66);
 }
 
 /* Speaker Section */
@@ -288,7 +302,7 @@ header {
   font-family: "Lato", sans-serif;
   font-size: 14px;
   font-weight: 400;
-  color: rgb(248, 81, 81);
+  color: rgb(236, 82, 66);
 }
 
 .description {
@@ -298,32 +312,43 @@ header {
   padding-top: 10px;
 }
 
-.last-btn {
+/* Partner Section */
+.partner {
+  height: 300px;
+  background-color: #272a31;
+}
+
+.partner-heading {
   font-family: "Lato", sans-serif;
-  font-size: 15px;
-  padding: 15px;
-  width: 400px;
-  color: rgb(111, 112, 116);
-  background: transparent;
-  border: 1px solid rgb(177, 178, 180);
-  border-radius: 2px;
-  margin-left: 27px;
-  margin-bottom: 30px;
-  margin-top: -50px;
-  cursor: pointer;
+  font-size: 25px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-top: 30px;
 }
 
-#arrow {
-  color: rgb(248, 81, 81);
-  margin-left: 5px;
-}
-
+/* footer Section */
 .footer img {
   display: none;
 }
 
+.footer-logo {
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo img {
+  width: 50%;
+}
+
+.logo-text {
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  color: rgb(211, 211, 211);
+}
+
 @media only screen and (min-width: 768px) {
-  header {
+  .main-section {
     background-image: url(./images/hero-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -367,22 +392,23 @@ header {
     justify-content: space-around;
     align-items: center;
     background-color: rgb(255, 255, 255);
-    height: 60px;
+    height: 10px;
   }
 
   .desk-logo {
     margin: 20px;
+    margin-top: 80px;
   }
 
   .nav-itmes {
     display: flex;
     flex-direction: row;
     margin-left: 50px;
-    margin-top: 5px;
+    margin-top: 80px;
   }
 
   .nav-itmes .first {
-    color: rgb(248, 81, 81);
+    color: rgb(236, 82, 66);
   }
 
   .nav-itmes li {
@@ -399,8 +425,8 @@ header {
   }
 
   .nav-btn {
-    border: 5px solid rgb(248, 81, 81);
-    color: rgb(248, 81, 81);
+    border: 5px solid rgb(236, 82, 66);
+    color: rgb(236, 82, 66);
     padding: 5px;
     background: transparent;
     margin-top: -10px;
@@ -415,9 +441,18 @@ header {
     margin-left: 100px;
   }
 
-  .summit-header img {
-    width: 50%;
-    margin-bottom: 20px;
+  .header-h4 {
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(236, 82, 66);
+  }
+
+  .header-h1 {
+    font-family: "Lato", sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    color: rgb(236, 82, 66);
   }
 
   .summit-paragraph {
