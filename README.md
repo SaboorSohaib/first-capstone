@@ -1,14 +1,29 @@
 # First Capstone Project
-
+ This is a webiste for public speakers speech.
   
 ## Built with 
- - HTML
- - CSS
- - JavaScript
-  
-To get a local copy up and running follow these simple example steps
+- HTML
+   - semantic HTML tags
+   - best practices in HTML code
+- CSS
+   - CSS selectors correctly
+   - CSS box model
+   - Flexbox to place elements in the page
+   - media queries
+- JavaScript
+  - JavaScript to manipulate DOM elements
+  - JavaScript events
+  -  objects to store and access data
+- GitHub Pages to deploy web pages
+
+### Live Demo (if availabel)
+- Github repo Link[https://github.com/SaboorSohaib/first-capstone/tree/capstone]
+- Online version link[https://saboorsohaib.github.io/first-capstone/]
+
+To get a local copy up and running follow these simple example steps:
 ### Prerequisites
-    If you want to use this project locally on your device you will need the following tools: 1: Node.js 2: NPM 3: Git,
+  - PC with the Internet.
+  - Visual Studio Code
 ### Setup
     To setup this project on your local device clone it using git and then install all of it's dependencies using npm.
 
@@ -22,8 +37,6 @@ To get a local copy up and running follow these simple example steps
  ## 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 
-
-
 ## Show your support
 Give a ⭐️ if you like this project!
 
@@ -31,7 +44,6 @@ Give a ⭐️ if you like this project!
   - Hat tip to anyone whose code was used
   - Inspiration
 
-    
 ## 📝 License
 This project is MIT licensed.
 
