@@ -41,9 +41,7 @@ Contributions, issues, and feature requests are welcome!
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-  - Hat tip to anyone whose code was used
-  - Inspiration
-
+   Cindy Shin the author of the original design [https://www.behance.net/gallery/29845175/CC-Global-Summit-2015]
 ## 📝 License
 This project is MIT licensed.
 
