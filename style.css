@@ -148,7 +148,7 @@
 
 .program-section {
   background-image: url(./images/program-bg.jpg);
-  height: 145vh;
+  height: 125vh;
 }
 
 .program-title {
@@ -202,7 +202,7 @@
   color: #fff;
   padding-right: 12px;
   padding-left: 12px;
-  height: 100px;
+  height: 110px;
   opacity: 0.9;
   margin-left: 10px;
   margin-right: 10px;
@@ -367,7 +367,7 @@
 
 .logo-text {
   font-family: "Lato", sans-serif;
-  font-size: 14px;
+  font-size: 12.5px;
   color: rgb(211, 211, 211);
 }
 

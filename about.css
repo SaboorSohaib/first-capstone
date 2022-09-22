@@ -10,7 +10,7 @@
   background-repeat: no-repeat;
   background-position: center;
   width: 100%;
-  height: 120vh;
+  height: 100vh;
 }
 
 .menu-btn {
@@ -97,7 +97,7 @@
 
 .about-title {
   font-family: "Lato", sans-serif;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 900;
   text-align: center;
   margin-top: 50px;
@@ -268,7 +268,7 @@
 
 .logo-text {
   font-family: "Lato", sans-serif;
-  font-size: 12px;
+  font-size: 12.5px;
   color: rgb(211, 211, 211);
 }
 
