@@ -6,7 +6,7 @@
 }
 
 .main-section {
-  background-image: url(./images/mobile-hero-bg.png);
+  background-image: url(./images/mobile-hero-bg1.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -227,7 +227,7 @@
 
 .program-btn {
   font-family: "Lato", sans-serif;
-  width: 450px;
+  width: 100%;
   padding: 20px;
   text-align: center;
   margin-top: 40px;
@@ -287,7 +287,7 @@
   flex-direction: column;
   width: 220px;
   height: 200px;
-  margin-top: -150px;
+  margin-top: -140px;
   gap: 10px;
 }
 
@@ -312,9 +312,13 @@
   padding-top: 10px;
 }
 
+.Photo {
+  width: 130px;
+}
+
 /* Partner Section */
 .partner {
-  height: 300px;
+  height: 350px;
   background-color: #272a31;
 }
 
@@ -327,9 +331,29 @@
   padding-top: 30px;
 }
 
+.partner-brand {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.partner-list {
+  display: flex;
+  margin: 15px;
+}
+
+.partner-list img {
+  width: 100px;
+  height: 100px;
+}
+
 /* footer Section */
-.footer img {
-  display: none;
+.home-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .footer-logo {
@@ -338,12 +362,12 @@
 }
 
 .footer-logo img {
-  width: 50%;
+  width: 200px;
 }
 
 .logo-text {
   font-family: "Lato", sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   color: rgb(211, 211, 211);
 }
 
@@ -590,9 +614,33 @@
     display: none;
   }
 
+  /* Partner Section */
+  .partner-brand {
+    display: flex;
+    padding: 20px;
+  }
+
+  .partner-list {
+    display: flex;
+    margin: 10px;
+  }
+
+  .partner-list img {
+    width: 90%;
+  }
+
   /* Footer Section */
-  .footer img {
-    display: block;
-    width: 100%;
+  .home-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .footer-logo {
+    width: 50%;
+  }
+
+  .logo-text {
+    font-size: 20px;
   }
 }
